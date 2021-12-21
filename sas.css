@@ -1,0 +1,103 @@
+h1 {
+  color: #190061;
+}
+
+/*
+$validacijaUspesna:rgb(73, 209, 73);
+$validacijaNeuspesna:rgb(255, 1, 1);
+
+
+//Lozinke
+
+.passVal{
+    
+    color: $validacijaUspesna;
+    &::before{
+        content: "Lozinke se podudaraju";
+    }
+    
+}
+.errorVal{
+    
+    color: $validacijaNeuspesna;
+    &::before{
+        content: "Lozinke se ne podudaraju";
+    }
+}
+.errorValDuzina{
+    
+    color: $validacijaNeuspesna;
+    &::before{
+        content: "Lozinka mora biti duza od 4 karaktera";
+    }
+}
+
+.verGreen{
+    border: 2px solid $validacijaUspesna;
+}
+.verRed{
+    border: 2px solid $validacijaNeuspesna;
+}
+*/
+img {
+  max-width: 100%;
+  border: 10px solid #190061;
+}
+
+#navbar {
+  background-color: #190061;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+h5, p, label {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 800;
+  color: white;
+}
+
+ul li a {
+  color: #3500d3;
+}
+
+ul li a:hover {
+  color: #3500d3;
+  background-color: #0c0032;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #3500d3;
+  color: #190061;
+}
+
+.btn:hover {
+  color: #3500d3;
+  background-color: #0c0032;
+  border-radius: 10px;
+}
+
+.active {
+  border: solid #531ef1 2px;
+  border-radius: 10px;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3500d3), to(#190061));
+  background: linear-gradient(#3500d3, #190061);
+}
+
+.card-title, .card-text {
+  color: #0c0032;
+}
+
+.gallery-item {
+  height: 20em;
+  width: 50em;
+}
+
+.veca-slika {
+  height: 30em;
+}
+/*# sourceMappingURL=sas.css.map */

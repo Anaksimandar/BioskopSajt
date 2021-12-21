@@ -1,0 +1,124 @@
+$tamno-plava:#0c0032;
+$srednje-plava:#190061;
+$svetlo-plava:#3500d3;
+$smedja:#282828;
+
+
+
+
+
+//Font
+$font-family: 'Montserrat', 'sans-serif';
+$font-family:'Montserrat','sans-serif';
+$velicina-nav:1.5em;
+$velicina-teksta:300;
+h1{
+    color:$srednje-plava;
+}
+/*
+$validacijaUspesna:rgb(73, 209, 73);
+$validacijaNeuspesna:rgb(255, 1, 1);
+
+
+//Lozinke
+
+.passVal{
+    
+    color: $validacijaUspesna;
+    &::before{
+        content: "Lozinke se podudaraju";
+    }
+    
+}
+.errorVal{
+    
+    color: $validacijaNeuspesna;
+    &::before{
+        content: "Lozinke se ne podudaraju";
+    }
+}
+.errorValDuzina{
+    
+    color: $validacijaNeuspesna;
+    &::before{
+        content: "Lozinka mora biti duza od 4 karaktera";
+    }
+}
+
+.verGreen{
+    border: 2px solid $validacijaUspesna;
+}
+.verRed{
+    border: 2px solid $validacijaNeuspesna;
+}
+*/
+
+
+img{
+    max-width: 100%;
+    
+    border: 10px solid $srednje-plava;
+}
+
+#navbar{
+    background-color: $srednje-plava;
+    font-family: $font-family;
+    font-size: $velicina-nav;
+    font-weight:$velicina-teksta+500;
+}
+h5,p,label{
+    font-family: $font-family;
+    font-weight: $velicina-teksta+500;
+    color: white;
+    
+}
+
+
+
+ul{
+    li{
+        a{
+            color:$svetlo-plava;
+
+            &:hover{
+                color: $svetlo-plava;
+                background-color: $tamno-plava;
+                border-radius: 10px;
+            }
+
+        }
+    }
+}
+.btn{
+    background-color: $svetlo-plava;
+    color: $srednje-plava;
+    
+    &:hover{
+        color: $svetlo-plava;
+        background-color: $tamno-plava;
+        border-radius: 10px;
+    }
+}
+.active{
+    border:solid $svetlo-plava+30 2px;
+    border-radius: 10px;
+}
+
+body{
+    background: linear-gradient($svetlo-plava,$srednje-plava);
+}
+//Sredjivanje cards-a
+
+.card-title, .card-text{
+    color: $tamno-plava;
+}
+//Galerija
+.gallery-item{
+    height: 20em;
+    width: 50em;
+    
+}
+.veca-slika{
+    height: 30em;
+}
+
